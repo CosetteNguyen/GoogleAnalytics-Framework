@@ -41,23 +41,6 @@
 		3A3FD4811D489982000FE823 /* TAGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
 		3A91583B1B1220A100A8FA96 /* GoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9158401B1220A100A8FA96 /* GoogleAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleAnalytics.h; sourceTree = "<group>"; };
-		3A9158591B12217400A8FA96 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		3A91585B1B12217400A8FA96 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		3A91585C1B12217400A8FA96 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
-		3A91585D1B12217400A8FA96 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		3A91585E1B12217400A8FA96 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
-		3A9158601B12217400A8FA96 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		3A9158611B12217400A8FA96 /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
-		3A9158621B12217400A8FA96 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
-		3A9158661B12217400A8FA96 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
-		3A9158671B12217400A8FA96 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
-		3A9158681B12217400A8FA96 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		3A9158691B12217400A8FA96 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		3A91586B1B12217400A8FA96 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
-		3A91586C1B12217400A8FA96 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
-		3A91586D1B12217400A8FA96 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
-		3A91586E1B12217400A8FA96 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
-		3A91586F1B12217400A8FA96 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		3A9158741B12223D00A8FA96 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		3A9158761B12224800A8FA96 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
 		3A9158771B12224800A8FA96 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
@@ -101,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				3A91583D1B1220A100A8FA96 /* Google Analytics */,
-				3A9158571B12217400A8FA96 /* Configuration */,
 				3A91589C1B12304000A8FA96 /* Frameworks */,
 				3A91583C1B1220A100A8FA96 /* Products */,
 			);
@@ -125,87 +107,6 @@
 				3A97DBEC1B1246A000276051 /* GoogleAnalytics-Info.plist */,
 			);
 			path = "Google Analytics";
-			sourceTree = "<group>";
-		};
-		3A9158571B12217400A8FA96 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				3A9158581B12217400A8FA96 /* Base */,
-				3A9158631B12217400A8FA96 /* Carthage */,
-				3A9158651B12217400A8FA96 /* iOS */,
-				3A91586A1B12217400A8FA96 /* Mac OS X */,
-			);
-			name = Configuration;
-			path = Carthage/Checkouts/xcconfigs;
-			sourceTree = "<group>";
-		};
-		3A9158581B12217400A8FA96 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				3A9158591B12217400A8FA96 /* Common.xcconfig */,
-				3A91585A1B12217400A8FA96 /* Configurations */,
-				3A91585F1B12217400A8FA96 /* Targets */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		3A91585A1B12217400A8FA96 /* Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				3A91585B1B12217400A8FA96 /* Debug.xcconfig */,
-				3A91585C1B12217400A8FA96 /* Profile.xcconfig */,
-				3A91585D1B12217400A8FA96 /* Release.xcconfig */,
-				3A91585E1B12217400A8FA96 /* Test.xcconfig */,
-			);
-			path = Configurations;
-			sourceTree = "<group>";
-		};
-		3A91585F1B12217400A8FA96 /* Targets */ = {
-			isa = PBXGroup;
-			children = (
-				3A9158601B12217400A8FA96 /* Application.xcconfig */,
-				3A9158611B12217400A8FA96 /* Framework.xcconfig */,
-				3A9158621B12217400A8FA96 /* StaticLibrary.xcconfig */,
-			);
-			path = Targets;
-			sourceTree = "<group>";
-		};
-		3A9158631B12217400A8FA96 /* Carthage */ = {
-			isa = PBXGroup;
-			children = (
-				3A9158641B12217400A8FA96 /* Build */,
-			);
-			path = Carthage;
-			sourceTree = "<group>";
-		};
-		3A9158641B12217400A8FA96 /* Build */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Build;
-			sourceTree = "<group>";
-		};
-		3A9158651B12217400A8FA96 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3A9158661B12217400A8FA96 /* iOS-Application.xcconfig */,
-				3A9158671B12217400A8FA96 /* iOS-Base.xcconfig */,
-				3A9158681B12217400A8FA96 /* iOS-Framework.xcconfig */,
-				3A9158691B12217400A8FA96 /* iOS-StaticLibrary.xcconfig */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		3A91586A1B12217400A8FA96 /* Mac OS X */ = {
-			isa = PBXGroup;
-			children = (
-				3A91586B1B12217400A8FA96 /* Mac-Application.xcconfig */,
-				3A91586C1B12217400A8FA96 /* Mac-Base.xcconfig */,
-				3A91586D1B12217400A8FA96 /* Mac-DynamicLibrary.xcconfig */,
-				3A91586E1B12217400A8FA96 /* Mac-Framework.xcconfig */,
-				3A91586F1B12217400A8FA96 /* Mac-StaticLibrary.xcconfig */,
-			);
-			path = "Mac OS X";
 			sourceTree = "<group>";
 		};
 		3A9158721B12221200A8FA96 /* External Headers */ = {
@@ -319,6 +220,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 3A9158311B1220A100A8FA96;
@@ -355,7 +257,6 @@
 /* Begin XCBuildConfiguration section */
 		3A91584F1B1220A100A8FA96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A91585B1B12217400A8FA96 /* Debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -366,7 +267,6 @@
 		};
 		3A9158501B1220A100A8FA96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A91585D1B12217400A8FA96 /* Release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -377,13 +277,13 @@
 		};
 		3A9158521B1220A100A8FA96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A9158681B12217400A8FA96 /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Google Analytics/GoogleAnalytics-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Google\\ Analytics/External",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -395,13 +295,13 @@
 		};
 		3A9158531B1220A100A8FA96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A9158681B12217400A8FA96 /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Google Analytics/GoogleAnalytics-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Google\\ Analytics/External",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
