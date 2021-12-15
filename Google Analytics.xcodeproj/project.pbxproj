@@ -283,7 +283,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Google\\ Analytics/External",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -301,7 +301,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Google\\ Analytics/External",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
